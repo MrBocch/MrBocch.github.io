@@ -24,3 +24,6 @@ I thought my first post should be something chill, so here is a small list of an
 - **No Matter How I Look at It, It's You Guys' Fault I'm Not Popular!**
 - **Bocchi the Rock!** 
 - **Chuunibyou**
+
+The anime I'm into is the sort slice of life, not so serious. Some people think its boring because "nothing happens", 
+in a sense they are right but thats not the point, just enjoy life bro.
