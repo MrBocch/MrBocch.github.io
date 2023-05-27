@@ -12,4 +12,4 @@ Currently a ITS student in
 {{< /rawhtml >}} 
 in my fourth semester. When I'm not in front of my computer I am most likely out on my skateboard or hanging out with friends!
 
-[github](https://github.com/MrBocch)
+[My github](https://github.com/MrBocch)
