@@ -8,7 +8,7 @@ draft: false
 
 Currently a ITS student in 
 {{< rawhtml >}}
-    <a href ="https://www.fime.uanl.mx/" target = "_blank" style="background:green;">FIME</a>
+    <a href ="https://www.fime.uanl.mx/" target = "_blank" style="padding:4px; border-radius:5px; background:green;">FIME</a>
 {{< /rawhtml >}} 
 in my fourth semester. When I'm not in front of my computer I am most likely out on my skateboard or hanging out with friends!
 
