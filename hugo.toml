@@ -17,7 +17,7 @@ paginate = 5
   themeColor = "red"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  showMenuItems = 10
 
   # show selector to switch language
   showLanguageSelector = false
@@ -95,3 +95,8 @@ paginate = 5
         identifier = "tags"
         name = "Tags"
         url = "/tags"
+
+      [[languages.en.menu.main]]
+        identifier = "rss"
+        name = "xRSS"
+        url = "/index.xml"
