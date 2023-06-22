@@ -1,3 +1,9 @@
+# if you want to write articule from different computer you have to
+# clone repository
+# have hugo-extended installed
+# write articule
+# authenticate user so that you could push to repository
+
 baseURL = 'mrbocch.github.io/'
 languageCode = 'en-us'
 title = 'MrBocch'
