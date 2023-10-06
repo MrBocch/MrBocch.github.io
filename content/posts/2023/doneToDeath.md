@@ -24,6 +24,8 @@ we have to continue to hear the same joke over and over. And they're not even fu
 Maybe this bothers me the most because I **loveee** VIM motions (RIP), but cmon.
 Nobody is born knowing, but its not like its easy to enter vim by complete accident so there's no excuse not knowing ***literally pressing 3 buttons*** if you enter vim somehow.
 
+This is bad because vim is so simple and amazing with very minimal practice.
+
 ### 2. Forgot semicolon
 
 {{< rawhtml >}}
@@ -55,4 +57,4 @@ but I believe these sorts of memes gives the wrong idea to people that might be 
 
 Relatable humor is the worst tragedy of the 21st century.
 
-{{< figure src="/img/beatup.gif" alt="" position="center" style="border-radius: 0px;" caption="Me if when I find the creator of these sorts of memes" captionPosition="right" captionStyle="color: black;" >}}
+{{< figure src="/img/beatup.gif" alt="" position="center" style="border-radius: 0px;" caption="Me WHEN I find the creator of these sorts of memes" captionPosition="right" captionStyle="color: black;" >}}
