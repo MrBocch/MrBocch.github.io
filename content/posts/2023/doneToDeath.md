@@ -1,7 +1,7 @@
 +++
 title = "Jokes that were never funny"
 date = "2023-10-06T14:56:40-06:00"
-author = ""
+author = "Jorge"
 authorTwitter = "" #do not include @
 cover = ""
 tags = ["vim", "jokes"]
