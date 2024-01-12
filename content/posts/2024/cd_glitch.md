@@ -1,5 +1,5 @@
 +++
-title = "Funny thing"
+title = "cd glitch?????"
 date = "2024-01-12T16:00:17-06:00"
 author = ""
 authorTwitter = "" #do not include @
