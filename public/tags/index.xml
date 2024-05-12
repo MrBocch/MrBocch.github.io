@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MrBocch</title>
+    <link>//localhost:1313/tags/</link>
+    <description>Recent content in Tags on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jan 2024 16:00:17 -0600</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>//localhost:1313/tags/linux/</link>
+      <pubDate>Fri, 12 Jan 2024 16:00:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/linux/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Terminal</title>
+      <link>//localhost:1313/tags/terminal/</link>
+      <pubDate>Fri, 12 Jan 2024 16:00:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/terminal/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>2023</title>
+      <link>//localhost:1313/tags/2023/</link>
+      <pubDate>Sun, 31 Dec 2023 23:15:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/2023/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>New Year</title>
+      <link>//localhost:1313/tags/new-year/</link>
+      <pubDate>Sun, 31 Dec 2023 23:15:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/new-year/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>October</title>
+      <link>//localhost:1313/tags/october/</link>
+      <pubDate>Tue, 31 Oct 2023 09:25:07 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/october/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Jokes</title>
+      <link>//localhost:1313/tags/jokes/</link>
+      <pubDate>Fri, 06 Oct 2023 14:56:40 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/jokes/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>//localhost:1313/tags/vim/</link>
+      <pubDate>Fri, 06 Oct 2023 14:56:40 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/vim/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>JoJo</title>
+      <link>//localhost:1313/tags/jojo/</link>
+      <pubDate>Thu, 15 Jun 2023 19:11:27 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/jojo/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Manga</title>
+      <link>//localhost:1313/tags/manga/</link>
+      <pubDate>Thu, 15 Jun 2023 19:11:27 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/manga/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Review</title>
+      <link>//localhost:1313/tags/review/</link>
+      <pubDate>Thu, 15 Jun 2023 19:11:27 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/review/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Videogames</title>
+      <link>//localhost:1313/tags/videogames/</link>
+      <pubDate>Fri, 09 Jun 2023 19:44:45 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/videogames/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Lua</title>
+      <link>//localhost:1313/tags/lua/</link>
+      <pubDate>Sat, 27 May 2023 23:37:49 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/lua/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Silly</title>
+      <link>//localhost:1313/tags/silly/</link>
+      <pubDate>Sat, 27 May 2023 23:37:49 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/silly/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>Anime</title>
+      <link>//localhost:1313/tags/anime/</link>
+      <pubDate>Wed, 24 May 2023 20:42:43 -0600</pubDate>
+      
+      <guid>//localhost:1313/tags/anime/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+  </channel>
+</rss>

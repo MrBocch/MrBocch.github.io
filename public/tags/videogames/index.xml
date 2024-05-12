@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videogames on MrBocch</title>
+    <link>//localhost:1313/tags/videogames/</link>
+    <description>Recent content in Videogames on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 09 Jun 2023 19:44:45 -0600</lastBuildDate><atom:link href="//localhost:1313/tags/videogames/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Street Fighter 6 is UGLY 🤢🤮</title>
+      <link>//localhost:1313/posts/2023/sf6ugly/</link>
+      <pubDate>Fri, 09 Jun 2023 19:44:45 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/sf6ugly/</guid>
+      <description>Realism != Good I cant understand how anybody thinks this looks good.
+Its not because of a lack of effort, its the style. It doesn&amp;rsquo;t fit with a street fighter game, the characters are way too reflective, everyone makes a stupid looking faces, plus the ui is ugly, the music sucks, everything sucks.
+There are too many colors its distracting. Just look at Street fighter 4, its full of life.</description>
+      <content>&lt;h2 id=&#34;realism--good&#34;&gt;Realism != Good&lt;/h2&gt;
+&lt;p&gt;I cant understand how anybody thinks this looks good.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/d3Erj4Lv_mQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Its not because of a lack of effort, its the style. It doesn&amp;rsquo;t fit with a street fighter game, the characters are way too reflective, everyone makes a stupid looking faces, plus the ui is ugly, the music sucks, everything sucks.&lt;/p&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/juri.png&#34; style=&#34;margin-left:auto; margin-right:auto;&#34;&gt;
+
+&lt;p&gt;There are too many colors its distracting. Just look at Street fighter 4, its full of life.&lt;/p&gt;
+&lt;p&gt;Less is more.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

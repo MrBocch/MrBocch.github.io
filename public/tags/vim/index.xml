@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vim on MrBocch</title>
+    <link>//localhost:1313/tags/vim/</link>
+    <description>Recent content in Vim on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 06 Oct 2023 14:56:40 -0600</lastBuildDate><atom:link href="//localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jokes that were never funny</title>
+      <link>//localhost:1313/posts/2023/donetodeath/</link>
+      <pubDate>Fri, 06 Oct 2023 14:56:40 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/donetodeath/</guid>
+      <description>Throwaway content I understand that anything that you find on social media is going to be very_low_effort/low_hanging_fruit but that does not mean we have to continue to hear the same joke over and over. And they&amp;rsquo;re not even funny, at all, and potentially harmful
+1. Cant exit vim Maybe this bothers me the most because I loveee VIM motions (RIP), but cmon. Nobody is born knowing, but its not like its easy to enter vim by complete accident so there&amp;rsquo;s no excuse not knowing literally pressing 3 buttons if you enter vim somehow.</description>
+      <content>&lt;h2 id=&#34;throwaway-content&#34;&gt;Throwaway content&lt;/h2&gt;
+&lt;p&gt;I understand that anything that you find on social media is going to be very_low_effort/low_hanging_fruit but that does not mean
+we have to continue to hear the same joke over and over. And they&amp;rsquo;re not even funny, at &lt;strong&gt;all&lt;/strong&gt;, and potentially harmful&lt;/p&gt;
+&lt;h3 id=&#34;1-cant-exit-vim&#34;&gt;1. Cant exit vim&lt;/h3&gt;
+&lt;p&gt;Maybe this bothers me the most because I &lt;strong&gt;loveee&lt;/strong&gt; VIM motions (RIP), but cmon.
+Nobody is born knowing, but its not like its easy to enter vim by complete accident so there&amp;rsquo;s no excuse not knowing &lt;em&gt;&lt;strong&gt;literally pressing 3 buttons&lt;/strong&gt;&lt;/em&gt; if you enter vim somehow.&lt;/p&gt;
+&lt;p&gt;This is bad because vim is so simple and amazing with very minimal practice.&lt;/p&gt;
+&lt;h3 id=&#34;2-forgot-semicolon&#34;&gt;2. Forgot semicolon&lt;/h3&gt;
+
+   &lt;img src=&#34;//localhost:1313/img/forgorSemi.jpg&#34; style=&#34;margin: 0 auto;&#34;&gt; 
+
+&lt;p&gt;This one irks me the most. What, do you code in notepad?
+With pen and paper? The most basic text editor would catch this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ALSO&lt;/strong&gt; the compiler would also tell you what function and line. Maybe the people that make these memes also cant read on top of not being funny.&lt;/p&gt;
+&lt;h3 id=&#34;3-code-merch&#34;&gt;3. Code merch&lt;/h3&gt;
+&lt;p&gt;While im here let me talk about this.&lt;/p&gt;
+
+   &lt;img src=&#34;//localhost:1313/img/codeshirt.jpg&#34; style=&#34;margin: 0 auto;&#34;&gt; 
+
+&lt;p&gt;Who wears this stuff? The code always manages to be wrong somehow.&lt;/p&gt;
+&lt;h3 id=&#34;4-ranking-languages-by-difficulty&#34;&gt;4. Ranking languages by difficulty&lt;/h3&gt;
+&lt;p&gt;Yes, its &amp;ldquo;easier&amp;rdquo; to get started with python than a language like C++
+but I believe these sorts of memes gives the wrong idea to people that might be learning how to programing or might be scared off learning a &amp;ldquo;difficult&amp;rdquo; language. Its giving ignorant.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Relatable humor is the worst tragedy of the 21st century.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;//localhost:1313/img/beatup.gif&#34;   style=&#34;border-radius: 0px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;right&#34;  style=&#34;color: black;&#34; &gt;Me WHEN I find the creator of these sorts of memes&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+</content>
+    </item>
+    
+  </channel>
+</rss>

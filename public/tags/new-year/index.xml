@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Year on MrBocch</title>
+    <link>//localhost:1313/tags/new-year/</link>
+    <description>Recent content in New Year on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 31 Dec 2023 23:15:17 -0600</lastBuildDate><atom:link href="//localhost:1313/tags/new-year/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Before the year ends</title>
+      <link>//localhost:1313/posts/2023/test/</link>
+      <pubDate>Sun, 31 Dec 2023 23:15:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/test/</guid>
+      <description>2023 I dont like to make a big deal out of the earth making a full rotation around the sun, but I like to reflect on how is the me from January 1st different from the me of today.
+I with out a doubt know more about programming than I did then.
+I learned and fell in love with ruby, I understand OOP more than i did then.
+With ruby I tackled a little bit of leetcode.</description>
+      <content>&lt;h1 id=&#34;2023&#34;&gt;2023&lt;/h1&gt;
+&lt;p&gt;I dont like to make a big deal out of the earth
+making a full rotation around the sun, but I like to reflect
+on how is the me from January 1st different from the me of
+today.&lt;/p&gt;
+&lt;p&gt;I with out a doubt know more about programming than I did then.&lt;/p&gt;
+&lt;p&gt;I learned and fell in love with ruby, I understand OOP more than i did then.&lt;/p&gt;
+&lt;p&gt;With ruby I tackled a little bit of leetcode. From seeking to write more expresive leetcode solutions I decided to look into Haskell.&lt;/p&gt;
+&lt;p&gt;From reading a Haskell book, I learned what higher order functions actually mean, I understand recursion better, I know what tail call optimization is now.&lt;/p&gt;
+&lt;p&gt;I learned how to code in a group for a school project. I had to learn a little SQL for this school project.&lt;/p&gt;
+&lt;p&gt;Yes, this year I have been more productive with learning computer science than any year before, but I feel like I could of done alot more.&lt;/p&gt;
+&lt;p&gt;I am greatfull for this great year.&lt;/p&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;p&gt;Here is the game plan.&lt;/p&gt;
+&lt;p&gt;They are several books that I must read this year, &lt;strong&gt;and actually finish them rather then leave them half read&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Get Programming with Haskell&lt;/strong&gt;&lt;/em&gt;, Will Kurt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;SICP&lt;/strong&gt;&lt;/em&gt; (im really exited about this one, will even follow along with the course on &lt;a href=&#34;https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;list=PLE18841CABEA24090&#34;&gt;youtube&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The Rust Book&lt;/strong&gt;&lt;/em&gt; (I want to try out tauri framework)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Crafting Interpreters&lt;/strong&gt;&lt;/em&gt;, Robert Nystrom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Any book on APL, it looks soo interesting&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I image that these books are not the kind you could read in a couple of sittings. They very dense with information and I expect to struggle alot reading them but I believe they will make me a better programmer.&lt;/p&gt;
+&lt;p&gt;I have other goals outside of programming but I want to keep those for my self 😊.&lt;/p&gt;
+&lt;p&gt;Anyways here is for a good year.&lt;/p&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/celebration.gif&#34;; style=&#39;margin: 0 auto;&#39;&gt;
+
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <title>cd glitch????? :: MrBocch</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="One of the goals I set for my self this year was to learn rust so that I could build apps with Tauri.
+So I am working my way thrue the rust book when i encounter something very funny.
+I use linux btw How is that possible? It appears that I went into the showcase directory then went back to parent directory but change into what appears like a totally random directory?" />
+<meta name="keywords" content=", " />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="//localhost:1313/posts/2024/cd_glitch/" />
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="//localhost:1313/styles.css">
+
+
+
+
+
+
+
+  <link rel="shortcut icon" href="//localhost:1313/img/theme-colors/red.png">
+  <link rel="apple-touch-icon" href="//localhost:1313/img/theme-colors/red.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="cd glitch?????">
+<meta property="og:description" content="One of the goals I set for my self this year was to learn rust so that I could build apps with Tauri.
+So I am working my way thrue the rust book when i encounter something very funny.
+I use linux btw How is that possible? It appears that I went into the showcase directory then went back to parent directory but change into what appears like a totally random directory?" />
+<meta property="og:url" content="//localhost:1313/posts/2024/cd_glitch/" />
+<meta property="og:site_name" content="MrBocch" />
+
+  
+  
+  <meta property="og:image" content="//localhost:1313/img/confused.jpg">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2024-01-12 16:00:17 -0600 CST" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="red">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    MrBocch
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/tags">Tags</a></li>
+        
+      
+        
+          <li><a href="/index.xml">xRSS</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/about" >About</a></li>
+        
+      
+        
+          <li><a href="/tags" >Tags</a></li>
+        
+      
+        
+          <li><a href="/index.xml" >xRSS</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="//localhost:1313/posts/2024/cd_glitch/">cd glitch?????</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2024-01-12</time></div>
+
+  
+    <span class="post-tags">
+      
+      #<a href="//localhost:1313/tags/terminal/">terminal</a>&nbsp;
+      
+      #<a href="//localhost:1313/tags/linux/">linux</a>&nbsp;
+      
+    </span>
+  
+  
+  <img src="//localhost:1313/img/confused.jpg"
+    class="post-cover"
+    alt="cd glitch?????"
+    title="Cover Image" />
+
+
+  
+
+  <div class="post-content"><div>
+        <p>One of the goals I set for my self this year
+was to learn rust so that I could build apps with <a href="https://tauri.app/">Tauri</a>.</p>
+<p>So I am working my way thrue the rust book when i encounter something very funny.</p>
+
+  <figure class="center" >
+    <img src="/img/cd_glitch.png"   style="border-radius: 0px;"  />
+    
+      <figcaption class="center"  style="color: black;" >I use linux btw</figcaption>
+    
+  </figure>
+
+
+<p>How is that possible? It appears that I went into the <strong>showcase</strong> directory
+then went back to parent directory but change into what appears like a totally random directory???</p>
+<h2 id="first-step">First step<a href="#first-step" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>The first step when trying to figure why something
+went wrong in software is to try to replicate it.</p>
+<p>From what I remembered all that I did up to that point was
+create a new directory because I was not sure if Cargo the rust package manager,
+would reinstall any library installed from a different project.
+After that I deleted the folder because it was no longer needed.</p>
+<p>Wait, how did I eliminate the folder?</p>
+<p>It all clicked. The issue was I would change directorys using
+vscodes terminal window but create and delete the folder thrue
+the buttons in vscode (i know mkdir exist its just that i happened to have my hand on the mouse at the time). Because I did not delete the folder thrue the terminal i completly forgot that the showcase directory no long exist because it had been deleted, how can you go up to the parent directory on a directory that does not exist?</p>
+<h2 id="what-happens-when-you-delete-something-on-a-computer">What happens when you delete something on a computer?<a href="#what-happens-when-you-delete-something-on-a-computer" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h2>
+<p>It appears that when you delete something atleast thrue a GUI that the file does not just dissapear forever, they end up in this directory</p>
+<p><code>.local/share/Trash/files</code></p>
+<p>I enter the list directory command and I fould hundreds of other files and folders that I had deleted weeks prior. Its in the name
+/Trash/files/. This appears to be some sort of trashcan. Knowing this I try to replicate it and it does the exact same thing, noting that it only works when deleting thrue the gui but not thrue &ldquo;rm -rf&rdquo;.</p>
+<p>This is when I ask chatgpt and it points me to
+<a href="https://www.freedesktop.org">freedesktop.org</a> and
+the <a href="https://specifications.freedesktop.org/trash-spec/trashspec-latest.html">trash specification</a>. This little 10 minute
+side tangent from learning rust was fun.</p>
+<p>ok bai.</p>
+
+      </div></div>
+
+  
+    
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        
+        <span class="button next">
+            <a href="//localhost:1313/posts/2023/test/">
+                <span class="button__text">Before the year ends</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2024 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

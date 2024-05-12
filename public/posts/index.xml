@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on MrBocch</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jan 2024 16:00:17 -0600</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cd glitch?????</title>
+      <link>//localhost:1313/posts/2024/cd_glitch/</link>
+      <pubDate>Fri, 12 Jan 2024 16:00:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2024/cd_glitch/</guid>
+      <description>One of the goals I set for my self this year was to learn rust so that I could build apps with Tauri.
+So I am working my way thrue the rust book when i encounter something very funny.
+I use linux btw How is that possible? It appears that I went into the showcase directory then went back to parent directory but change into what appears like a totally random directory?</description>
+      <content>&lt;p&gt;One of the goals I set for my self this year
+was to learn rust so that I could build apps with &lt;a href=&#34;https://tauri.app/&#34;&gt;Tauri&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So I am working my way thrue the rust book when i encounter something very funny.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;//localhost:1313/img/cd_glitch.png&#34;   style=&#34;border-radius: 0px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;I use linux btw&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;How is that possible? It appears that I went into the &lt;strong&gt;showcase&lt;/strong&gt; directory
+then went back to parent directory but change into what appears like a totally random directory???&lt;/p&gt;
+&lt;h2 id=&#34;first-step&#34;&gt;First step&lt;/h2&gt;
+&lt;p&gt;The first step when trying to figure why something
+went wrong in software is to try to replicate it.&lt;/p&gt;
+&lt;p&gt;From what I remembered all that I did up to that point was
+create a new directory because I was not sure if Cargo the rust package manager,
+would reinstall any library installed from a different project.
+After that I deleted the folder because it was no longer needed.&lt;/p&gt;
+&lt;p&gt;Wait, how did I eliminate the folder?&lt;/p&gt;
+&lt;p&gt;It all clicked. The issue was I would change directorys using
+vscodes terminal window but create and delete the folder thrue
+the buttons in vscode (i know mkdir exist its just that i happened to have my hand on the mouse at the time). Because I did not delete the folder thrue the terminal i completly forgot that the showcase directory no long exist because it had been deleted, how can you go up to the parent directory on a directory that does not exist?&lt;/p&gt;
+&lt;h2 id=&#34;what-happens-when-you-delete-something-on-a-computer&#34;&gt;What happens when you delete something on a computer?&lt;/h2&gt;
+&lt;p&gt;It appears that when you delete something atleast thrue a GUI that the file does not just dissapear forever, they end up in this directory&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;.local/share/Trash/files&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I enter the list directory command and I fould hundreds of other files and folders that I had deleted weeks prior. Its in the name
+/Trash/files/. This appears to be some sort of trashcan. Knowing this I try to replicate it and it does the exact same thing, noting that it only works when deleting thrue the gui but not thrue &amp;ldquo;rm -rf&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;This is when I ask chatgpt and it points me to
+&lt;a href=&#34;https://www.freedesktop.org&#34;&gt;freedesktop.org&lt;/a&gt; and
+the &lt;a href=&#34;https://specifications.freedesktop.org/trash-spec/trashspec-latest.html&#34;&gt;trash specification&lt;/a&gt;. This little 10 minute
+side tangent from learning rust was fun.&lt;/p&gt;
+&lt;p&gt;ok bai.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Before the year ends</title>
+      <link>//localhost:1313/posts/2023/test/</link>
+      <pubDate>Sun, 31 Dec 2023 23:15:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/test/</guid>
+      <description>2023 I dont like to make a big deal out of the earth making a full rotation around the sun, but I like to reflect on how is the me from January 1st different from the me of today.
+I with out a doubt know more about programming than I did then.
+I learned and fell in love with ruby, I understand OOP more than i did then.
+With ruby I tackled a little bit of leetcode.</description>
+      <content>&lt;h1 id=&#34;2023&#34;&gt;2023&lt;/h1&gt;
+&lt;p&gt;I dont like to make a big deal out of the earth
+making a full rotation around the sun, but I like to reflect
+on how is the me from January 1st different from the me of
+today.&lt;/p&gt;
+&lt;p&gt;I with out a doubt know more about programming than I did then.&lt;/p&gt;
+&lt;p&gt;I learned and fell in love with ruby, I understand OOP more than i did then.&lt;/p&gt;
+&lt;p&gt;With ruby I tackled a little bit of leetcode. From seeking to write more expresive leetcode solutions I decided to look into Haskell.&lt;/p&gt;
+&lt;p&gt;From reading a Haskell book, I learned what higher order functions actually mean, I understand recursion better, I know what tail call optimization is now.&lt;/p&gt;
+&lt;p&gt;I learned how to code in a group for a school project. I had to learn a little SQL for this school project.&lt;/p&gt;
+&lt;p&gt;Yes, this year I have been more productive with learning computer science than any year before, but I feel like I could of done alot more.&lt;/p&gt;
+&lt;p&gt;I am greatfull for this great year.&lt;/p&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;p&gt;Here is the game plan.&lt;/p&gt;
+&lt;p&gt;They are several books that I must read this year, &lt;strong&gt;and actually finish them rather then leave them half read&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Get Programming with Haskell&lt;/strong&gt;&lt;/em&gt;, Will Kurt&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;SICP&lt;/strong&gt;&lt;/em&gt; (im really exited about this one, will even follow along with the course on &lt;a href=&#34;https://www.youtube.com/watch?v=-J_xL4IGhJA&amp;list=PLE18841CABEA24090&#34;&gt;youtube&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The Rust Book&lt;/strong&gt;&lt;/em&gt; (I want to try out tauri framework)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Crafting Interpreters&lt;/strong&gt;&lt;/em&gt;, Robert Nystrom&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Any book on APL, it looks soo interesting&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I image that these books are not the kind you could read in a couple of sittings. They very dense with information and I expect to struggle alot reading them but I believe they will make me a better programmer.&lt;/p&gt;
+&lt;p&gt;I have other goals outside of programming but I want to keep those for my self 😊.&lt;/p&gt;
+&lt;p&gt;Anyways here is for a good year.&lt;/p&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/celebration.gif&#34;; style=&#39;margin: 0 auto;&#39;&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>Spooky</title>
+      <link>//localhost:1313/posts/2023/spooky/</link>
+      <pubDate>Tue, 31 Oct 2023 09:25:07 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/spooky/</guid>
+      <description> </description>
+      <content>
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+   &lt;img src=&#34;//localhost:1313/img/dancingSkelly.gif&#34; style=&#34;margin: 0 auto; margin-bottom: 9px; width: 100%;&#34;&gt; 
+
+
+
+    &lt;script&gt;
+        console.log(
+            &#34;.___,_______,_____Happy_Halloween____.&#34;
+         + &#34;\n| ./(       )\\.        |             |&#34;
+         + &#34;\n| )  \\/\\_/\\/  (        |             |&#34;
+         + &#34;\n| `)  (^Y^)  (`      \\(|)/           |&#34;
+         + &#34;\n|  `),-(~)-,(`      --(\&#34;)--          |&#34;
+         + &#34;\n|      &#39;\&#34;&#39;      \\\\    /`\\            |&#34;
+         + &#34;\n|          .-&#39;```^```&#39;-.    ,     ,  |&#34;
+         + &#34;\n|         /   (\\ __ /)  \\   )\\___/(  |&#34;
+         + &#34;\n|         |    ` \\/ `   |  {(@)v(@)} |&#34;
+         + &#34;\n|         \\    \\____/   /   {|~~~|}  |&#34;
+         + &#34;\n|          `&#39;-.......-&#39;`    {/^^^\\}  |&#34;
+         + &#34;\n.___ldb______________________`m-m`___.&#34;)
+        
+        console.log(&#34;i wish i could autoplay audio but browser wont let me&#34;)
+        
+    &lt;/script&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>Jokes that were never funny</title>
+      <link>//localhost:1313/posts/2023/donetodeath/</link>
+      <pubDate>Fri, 06 Oct 2023 14:56:40 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/donetodeath/</guid>
+      <description>Throwaway content I understand that anything that you find on social media is going to be very_low_effort/low_hanging_fruit but that does not mean we have to continue to hear the same joke over and over. And they&amp;rsquo;re not even funny, at all, and potentially harmful
+1. Cant exit vim Maybe this bothers me the most because I loveee VIM motions (RIP), but cmon. Nobody is born knowing, but its not like its easy to enter vim by complete accident so there&amp;rsquo;s no excuse not knowing literally pressing 3 buttons if you enter vim somehow.</description>
+      <content>&lt;h2 id=&#34;throwaway-content&#34;&gt;Throwaway content&lt;/h2&gt;
+&lt;p&gt;I understand that anything that you find on social media is going to be very_low_effort/low_hanging_fruit but that does not mean
+we have to continue to hear the same joke over and over. And they&amp;rsquo;re not even funny, at &lt;strong&gt;all&lt;/strong&gt;, and potentially harmful&lt;/p&gt;
+&lt;h3 id=&#34;1-cant-exit-vim&#34;&gt;1. Cant exit vim&lt;/h3&gt;
+&lt;p&gt;Maybe this bothers me the most because I &lt;strong&gt;loveee&lt;/strong&gt; VIM motions (RIP), but cmon.
+Nobody is born knowing, but its not like its easy to enter vim by complete accident so there&amp;rsquo;s no excuse not knowing &lt;em&gt;&lt;strong&gt;literally pressing 3 buttons&lt;/strong&gt;&lt;/em&gt; if you enter vim somehow.&lt;/p&gt;
+&lt;p&gt;This is bad because vim is so simple and amazing with very minimal practice.&lt;/p&gt;
+&lt;h3 id=&#34;2-forgot-semicolon&#34;&gt;2. Forgot semicolon&lt;/h3&gt;
+
+   &lt;img src=&#34;//localhost:1313/img/forgorSemi.jpg&#34; style=&#34;margin: 0 auto;&#34;&gt; 
+
+&lt;p&gt;This one irks me the most. What, do you code in notepad?
+With pen and paper? The most basic text editor would catch this.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ALSO&lt;/strong&gt; the compiler would also tell you what function and line. Maybe the people that make these memes also cant read on top of not being funny.&lt;/p&gt;
+&lt;h3 id=&#34;3-code-merch&#34;&gt;3. Code merch&lt;/h3&gt;
+&lt;p&gt;While im here let me talk about this.&lt;/p&gt;
+
+   &lt;img src=&#34;//localhost:1313/img/codeshirt.jpg&#34; style=&#34;margin: 0 auto;&#34;&gt; 
+
+&lt;p&gt;Who wears this stuff? The code always manages to be wrong somehow.&lt;/p&gt;
+&lt;h3 id=&#34;4-ranking-languages-by-difficulty&#34;&gt;4. Ranking languages by difficulty&lt;/h3&gt;
+&lt;p&gt;Yes, its &amp;ldquo;easier&amp;rdquo; to get started with python than a language like C++
+but I believe these sorts of memes gives the wrong idea to people that might be learning how to programing or might be scared off learning a &amp;ldquo;difficult&amp;rdquo; language. Its giving ignorant.&lt;/p&gt;
+&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Relatable humor is the worst tragedy of the 21st century.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;//localhost:1313/img/beatup.gif&#34;   style=&#34;border-radius: 0px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;right&#34;  style=&#34;color: black;&#34; &gt;Me WHEN I find the creator of these sorts of memes&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+</content>
+    </item>
+    
+    <item>
+      <title>JoJolion Review</title>
+      <link>//localhost:1313/posts/2023/jojopart8/</link>
+      <pubDate>Thu, 15 Jun 2023 19:11:27 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/jojopart8/</guid>
+      <description>Its been a while since I completed reading JoJolion but I just need to say that it SUCKED!
+warning spoilers ahead
+1. Villany If you are familiar with JoJo&amp;rsquo;s you know that theres no good jojo adventure without a awesome villan, JoJolion very much lacks this.
+Let me just list of some of these previous jojo main antoganist and you will see.
+Dio Brando: part 1 and 3 include Dio (a vampire demon) using all sort of evil acts to take over the world.</description>
+      <content>&lt;p&gt;Its been a while since I completed reading JoJolion but I just need to say
+that it SUCKED!&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;warning spoilers ahead&lt;/code&gt;&lt;/p&gt;
+&lt;h1 id=&#34;1-villany&#34;&gt;1. Villany&lt;/h1&gt;
+&lt;p&gt;If you are familiar with JoJo&amp;rsquo;s you know that theres no good jojo adventure without a awesome villan,
+JoJolion very much lacks this.&lt;/p&gt;
+&lt;p&gt;Let me just list of some of these previous jojo main antoganist and you will see.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dio Brando&lt;/strong&gt;: part 1 and 3 include Dio (a vampire demon) using all sort of evil acts to take over the world.&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;img src=&#34;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftruth.bahamut.com.tw%2Fs01%2F201907%2F23d2256842dd1caa67c6aaba55eab61e.JPG&amp;f=1&amp;nofb=1&amp;ipt=1a2013ffad1d4ce7da7e99d2366ec5cc57cb37135a61ae812f4118f88f57230e&amp;ipo=images&#34;&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Yoshikage Kira&lt;/strong&gt;: Instant fan favorite Yoshikage Kira is a psycho killer, with a stand with the ability to blow shit up + has a &amp;ldquo;stand awekaning&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/killerQueen.png&#34; width=70% style=&#34;margin: 0 auto;&#34;&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+&lt;p&gt;So who does JoJolion have as their main antagonist?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Tooru&lt;/strong&gt; who is entirely motivated because a girl was nice to him once I guess.&lt;/p&gt;
+
+    &lt;img src=&#34;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.jojowiki.com%2Fimages%2Fthumb%2F5%2F5d%2Flatest%2F20210306121521%2FToru_yasuho.png%2F400px-Toru_yasuho.png&amp;f=1&amp;nofb=1&amp;ipt=e753c4266f4868b775dff49d1b489283be91976b297e0a293c217599b707b585&amp;ipo=images&#34; width=70% style=&#34;margin: 0 auto;&#34;&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+&lt;h2 id=&#34;2-severe-lack-of-jobro&#34;&gt;2. Severe lack of JoBro&lt;/h2&gt;
+&lt;p&gt;How can you have a JoJo story without memorable side characters like, Kakyoin, Pierre Polnareff, Giorno&amp;rsquo;s whole gang, Pierre Polnareff as a turtle, Zeppelli, Caesar or Gyro Zeppeli. Reading part 7 you quickly realize there is no JoBro, just the most unlikable guy every conceived with absolutely no redeeming qualities that just hangs out sometimes.&lt;/p&gt;
+
+    &lt;img src=&#34;https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F48%2F69%2Fa6%2F4869a6e79210b61f73be87f758a5d127.jpg&amp;f=1&amp;nofb=1&amp;ipt=18029acd92eb98f796e705b0a9fb5bcc1ce587b710a3ae6b0890bc446dca9709&amp;ipo=images&#34; width=70% style=&#34;margin: 0 auto;&#34;&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+    &lt;br&gt;
+
+&lt;h2 id=&#34;3-plot-bro&#34;&gt;3. Plot bro?&lt;/h2&gt;
+&lt;p&gt;Maybe its not fair to part 8 to complain about an exiting plot considering it follows up Steel Ball Run.&lt;/p&gt;
+&lt;p&gt;Its just very bland in general and hard to care about.&lt;/p&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/shrug.gif&#34; width=70% style=&#34;margin: 0 auto;&#34;&gt;
+
+</content>
+    </item>
+    
+    <item>
+      <title>Street Fighter 6 is UGLY 🤢🤮</title>
+      <link>//localhost:1313/posts/2023/sf6ugly/</link>
+      <pubDate>Fri, 09 Jun 2023 19:44:45 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/sf6ugly/</guid>
+      <description>Realism != Good I cant understand how anybody thinks this looks good.
+Its not because of a lack of effort, its the style. It doesn&amp;rsquo;t fit with a street fighter game, the characters are way too reflective, everyone makes a stupid looking faces, plus the ui is ugly, the music sucks, everything sucks.
+There are too many colors its distracting. Just look at Street fighter 4, its full of life.</description>
+      <content>&lt;h2 id=&#34;realism--good&#34;&gt;Realism != Good&lt;/h2&gt;
+&lt;p&gt;I cant understand how anybody thinks this looks good.&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/d3Erj4Lv_mQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;p&gt;Its not because of a lack of effort, its the style. It doesn&amp;rsquo;t fit with a street fighter game, the characters are way too reflective, everyone makes a stupid looking faces, plus the ui is ugly, the music sucks, everything sucks.&lt;/p&gt;
+
+    &lt;img src=&#34;//localhost:1313/img/juri.png&#34; style=&#34;margin-left:auto; margin-right:auto;&#34;&gt;
+
+&lt;p&gt;There are too many colors its distracting. Just look at Street fighter 4, its full of life.&lt;/p&gt;
+&lt;p&gt;Less is more.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>snake_case 🐍</title>
+      <link>//localhost:1313/posts/2023/snake_case/</link>
+      <pubDate>Sat, 27 May 2023 23:37:49 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/snake_case/</guid>
+      <description>🐍 I know what snake case means but I thought what if snake case ment ending words with ssss like a snake LOL
+Here below is code snippet from my github repo where I try to solve all of the 2022 Advent of Code problems in Lua
+function part2() local filesss = io.open(&amp;#34;input6.txt&amp;#34;) io.input(filesss) local stringsss = io.read(&amp;#34;*all&amp;#34;) for i=14, #stringsss do setsss = {} setSizesss = 0 for k= i-13, i do if setsss[string.</description>
+      <content>&lt;h2 id=&#34;heading&#34;&gt;🐍&lt;/h2&gt;
+&lt;p&gt;I know what snake case means but I thought what if snake case ment ending words with &lt;code&gt;ssss&lt;/code&gt; like a snake LOL&lt;/p&gt;
+&lt;p&gt;Here below is code snippet from my &lt;a href=&#34;https://github.com/MrBocch/Advent_of_Code_2022_Lua&#34;&gt;github repo&lt;/a&gt; where I try to solve all of the 2022 Advent of Code problems in Lua&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-Python&#34; data-lang=&#34;Python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;function part2()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    local filesss &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; io&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;open(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;input6.txt&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    io&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;input(filesss)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    local stringsss &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; io&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;read(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;*all&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt;, &lt;span style=&#34;color:#75715e&#34;&gt;#stringsss do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        setsss &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; {}
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        setSizesss &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; k&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;13&lt;/span&gt;, i do
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; setsss[string&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sub(stringsss, k,k)] &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; nil then
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                setsss[string&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sub(stringsss, k,k)] &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                setSizesss &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; setSizesss &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; setSizesss &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;14&lt;/span&gt; then
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Part 2: &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;..&lt;/span&gt;i)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    end
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;end
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Very sillysss.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Anime Review</title>
+      <link>//localhost:1313/posts/2023/animereview/</link>
+      <pubDate>Wed, 24 May 2023 20:42:43 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2023/animereview/</guid>
+      <description>Welcome I thought my first post should be something chill, so here is a small list of anime that I like in no particular order
+K-on Hitori Bocchi no Marumaru Seikatsu Azumanga Daioh Love Lab No Matter How I Look at It, It&amp;rsquo;s You Guys&amp;rsquo; Fault I&amp;rsquo;m Not Popular! Bocchi the Rock! Chuunibyou The anime I&amp;rsquo;m into is the sort slice of life, not so serious. Some people think its boring because &amp;ldquo;nothing happens&amp;rdquo;, in a sense they are right but thats not the point, just enjoy life bro.</description>
+      <content>&lt;h1 id=&#34;welcome&#34;&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;I thought my first post should be something chill, so here is a small list of anime that I like in no particular order&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;K-on&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hitori Bocchi no Marumaru Seikatsu&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Azumanga Daioh&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Love Lab&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No Matter How I Look at It, It&amp;rsquo;s You Guys&amp;rsquo; Fault I&amp;rsquo;m Not Popular!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bocchi the Rock!&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chuunibyou&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The anime I&amp;rsquo;m into is the sort slice of life, not so serious. Some people think its boring because &amp;ldquo;nothing happens&amp;rdquo;,
+in a sense they are right but thats not the point, just enjoy life bro.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on MrBocch</title>
+    <link>//localhost:1313/tags/terminal/</link>
+    <description>Recent content in Terminal on MrBocch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jan 2024 16:00:17 -0600</lastBuildDate><atom:link href="//localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cd glitch?????</title>
+      <link>//localhost:1313/posts/2024/cd_glitch/</link>
+      <pubDate>Fri, 12 Jan 2024 16:00:17 -0600</pubDate>
+      
+      <guid>//localhost:1313/posts/2024/cd_glitch/</guid>
+      <description>One of the goals I set for my self this year was to learn rust so that I could build apps with Tauri.
+So I am working my way thrue the rust book when i encounter something very funny.
+I use linux btw How is that possible? It appears that I went into the showcase directory then went back to parent directory but change into what appears like a totally random directory?</description>
+      <content>&lt;p&gt;One of the goals I set for my self this year
+was to learn rust so that I could build apps with &lt;a href=&#34;https://tauri.app/&#34;&gt;Tauri&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So I am working my way thrue the rust book when i encounter something very funny.&lt;/p&gt;
+
+  &lt;figure class=&#34;center&#34; &gt;
+    &lt;img src=&#34;//localhost:1313/img/cd_glitch.png&#34;   style=&#34;border-radius: 0px;&#34;  /&gt;
+    
+      &lt;figcaption class=&#34;center&#34;  style=&#34;color: black;&#34; &gt;I use linux btw&lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+
+
+&lt;p&gt;How is that possible? It appears that I went into the &lt;strong&gt;showcase&lt;/strong&gt; directory
+then went back to parent directory but change into what appears like a totally random directory???&lt;/p&gt;
+&lt;h2 id=&#34;first-step&#34;&gt;First step&lt;/h2&gt;
+&lt;p&gt;The first step when trying to figure why something
+went wrong in software is to try to replicate it.&lt;/p&gt;
+&lt;p&gt;From what I remembered all that I did up to that point was
+create a new directory because I was not sure if Cargo the rust package manager,
+would reinstall any library installed from a different project.
+After that I deleted the folder because it was no longer needed.&lt;/p&gt;
+&lt;p&gt;Wait, how did I eliminate the folder?&lt;/p&gt;
+&lt;p&gt;It all clicked. The issue was I would change directorys using
+vscodes terminal window but create and delete the folder thrue
+the buttons in vscode (i know mkdir exist its just that i happened to have my hand on the mouse at the time). Because I did not delete the folder thrue the terminal i completly forgot that the showcase directory no long exist because it had been deleted, how can you go up to the parent directory on a directory that does not exist?&lt;/p&gt;
+&lt;h2 id=&#34;what-happens-when-you-delete-something-on-a-computer&#34;&gt;What happens when you delete something on a computer?&lt;/h2&gt;
+&lt;p&gt;It appears that when you delete something atleast thrue a GUI that the file does not just dissapear forever, they end up in this directory&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;.local/share/Trash/files&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;I enter the list directory command and I fould hundreds of other files and folders that I had deleted weeks prior. Its in the name
+/Trash/files/. This appears to be some sort of trashcan. Knowing this I try to replicate it and it does the exact same thing, noting that it only works when deleting thrue the gui but not thrue &amp;ldquo;rm -rf&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;This is when I ask chatgpt and it points me to
+&lt;a href=&#34;https://www.freedesktop.org&#34;&gt;freedesktop.org&lt;/a&gt; and
+the &lt;a href=&#34;https://specifications.freedesktop.org/trash-spec/trashspec-latest.html&#34;&gt;trash specification&lt;/a&gt;. This little 10 minute
+side tangent from learning rust was fun.&lt;/p&gt;
+&lt;p&gt;ok bai.&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
