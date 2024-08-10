@@ -1,0 +1,27 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #282828;
+  color: #ebdbb2;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  font-size: 20px;
+  margin: 15px;
+}
+
+a {
+  color: #8ec07c;
+
+  padding: 5px;
+}
+
+a:hover {
+  color: #fb4934;
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>jorge.sh</title>
+        <link rel="stylesheet" href="static/style.css" />
+    </head>
+    <body>
+        <h1>jorge.sh</h1>
+        <img id="image" width="400px" />
+        <nav>
+            <a href="https://jorge.sh/blog">blog</a>
+            <a href="https://github.com/mrbocch">github</a>
+        </nav>
+    </body>
+
+    <script>
+        const path = "static/images/";
+
+        const imageCount = 5;
+        const imageIndex = Math.floor(Math.random() * imageCount);
+
+        document.getElementById("image").src = `${path}${imageIndex}.jpg`;
+    </script>
+</html>
