@@ -1,22 +1,30 @@
 # /bin/zsh
 
 _image_count(){
-    count=$(ls -l static/images/ | wc -l)
-    echo $(($count - 1))
+    count=$(ls -l static/images/ | wc -l )
+    # why cant i do it in 1 line?
+    count=$((count - 1))
+    echo $(($count))
 }
-
 
 # i could probably use seq
 # seq [start] [increment] [limit]
 # an interesting idea but i=0; i++; is simpler
 _rename_images(){
+    icount=_image_count
     i=0
-    # this deletes a picuture if an images is renamed to another existing image
-    # how to stop this?
+    echo $icount
     for image in static/images/*; do
-        echo "renaming $image to $i.jpg"
-        mv $image "static/images/$i.jpg"
-        i=$((i+1))
+        if [ -e "static/images/${i}.jpg" ]; then
+            echo "File ${i}.jpg exists. dont overwrite"
+            i=$((i+1))
+        else
+            echo "file ${i}.jpg not exist"
+            i=$((i+1))
+        fi
+        #echo "renaming $image to $i.jpg"
+        #mv $image "static/images/$i.jpg"
+        #i=$((i+1))
     done
 }
 
