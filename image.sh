@@ -28,6 +28,7 @@ _rename_images(){
     mv static/stage/* static/images/
     _remove_metadata
     _remove_metadata
+    _update_script
 }
 
 _remove_metadata(){
@@ -37,4 +38,18 @@ _remove_metadata(){
     done
 }
 
-_remove_metadata
+_update_script(){
+    local icount=$(_image_count)
+    cat <<EOF > script.js
+const path = "static/images/";
+const imageCount = ${icount};
+const imageIndex = Math.floor(Math.random() * imageCount);
+document.getElementById("image").src = \`\${path}\${imageIndex}.jpg\`;
+
+EOF
+}
+
+
+_rename_images
+
+# i should probably start adding flags and parameters so dont have to change the script
