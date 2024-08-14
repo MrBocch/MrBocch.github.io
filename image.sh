@@ -52,16 +52,17 @@ EOF
 }
 
 _help(){
-	echo "  remove : removes metadata from images"
-	echo "  rename : takes image from staging area to images and renames them"
-	echo "  update : updates script to include the newer images"
-	echo "  count  : returns number of images"
+	echo "  image.sh remove : removes metadata from images"
+	echo "  image.sh rename : takes image from staging area to images and renames them"
+	echo "  image.sh update : updates script to include the newer images"
+	echo "  image.sh count  : returns number of images"
+	echo "  image.sh help   : help page"
 }
 
-if [ -z $1 ] || [ $1 == "--help" ] || [ $1 == "-h" ] ; then
-	_help
-	exit
-fi
+# if [ -z $1 ] || [ $1 == "--help" ] || [ $1 == "-h" ] ; then
+	# _help
+	# exit
+# fi
 
 case $1 in
 	remove)
