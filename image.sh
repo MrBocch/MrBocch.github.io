@@ -11,9 +11,6 @@ _image_count(){
 # seq [start] [increment] [limit]
 # an interesting idea but i=0; i++; is simpler
 
-# ill make it really simple
-# i will paste the images to the staging area to rename them
-# then paste them into images
 _rename_images(){
     local icount=$(_image_count)
     i=$icount
@@ -23,10 +20,8 @@ _rename_images(){
         i=$((i+1))
     done
     echo "moving staging images to images folder"
-    echo "dont forget to update the js"
     # maybe i can do that in here also, just write to a script.js
     mv static/stage/* static/images/
-    _remove_metadata
     _remove_metadata
     _update_script
 }
@@ -59,10 +54,12 @@ _help(){
 	echo "  image.sh help   : help page"
 }
 
-# if [ -z $1 ] || [ $1 == "--help" ] || [ $1 == "-h" ] ; then
-	# _help
-	# exit
-# fi
+# did you know that you can very easily convert images with ffmpeg
+# for example
+# ffmpeg -i image.png image.jpg
+# should add a flag for this 
+# or the rename function should check for this 
+# i think i could use awk 
 
 case $1 in
 	remove)
