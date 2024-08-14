@@ -39,6 +39,8 @@ _remove_metadata(){
 }
 
 _update_script(){
+	echo "updating script"
+
     local icount=$(_image_count)
     cat <<EOF > script.js
 const path = "static/images/";
@@ -49,7 +51,33 @@ document.getElementById("image").src = \`\${path}\${imageIndex}.jpg\`;
 EOF
 }
 
+_help(){
+	echo "  remove : removes metadata from images"
+	echo "  rename : takes image from staging area to images and renames them"
+	echo "  update : updates script to include the newer images"
+	echo "  count  : returns number of images"
+}
 
-_rename_images
+if [ -z $1 ] || [ $1 == "--help" ] || [ $1 == "-h" ] ; then
+	_help
+	exit
+fi
 
-# i should probably start adding flags and parameters so dont have to change the script
+case $1 in
+	remove)
+		_remove_metadata 	
+		;;
+	rename)
+		_rename_images
+		;;
+	update)
+		_update_script
+		;;
+	count)
+		_image_count
+		;;
+	*)
+		_help
+		;;
+esac
+
