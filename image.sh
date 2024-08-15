@@ -7,15 +7,12 @@ _image_count(){
     echo $count
 }
 
-# i could probably use seq
-# seq [start] [increment] [limit]
-# an interesting idea but i=0; i++; is simpler
-
 _rename_images(){
     local icount=$(_image_count)
     i=$icount
     for image in static/stage/* ; do
         echo "renaming $image to ${i}.jpg"
+
         mv $image "static/stage/${i}.jpg"
         i=$((i+1))
     done
@@ -25,6 +22,29 @@ _rename_images(){
     _remove_metadata
     _update_script
 }
+
+_get_extension(){
+    echo $1 | awk '{ split($0, arr, "."); print arr[2] }'
+}
+
+_get_name(){
+    echo $1 | awk '{ split($0, arr, "."); print arr[1] }'
+}
+
+_convert_to_jpg(){
+    local image=$1
+    name="$(_get_name $image)"
+    ext="$(_get_extension $image)"
+    if [ $ext == "jpg" ]; then
+        echo "this $image is a .jpg"
+    else
+        echo "converting $image to a .jpg"
+        ffmpeg -i $image $name.jpg
+    fi
+}
+
+# _convert_to_jpg static/stage/test.png
+# ffmpeg does not destroy the original image so what should i do? not movethem or delete them?
 
 _remove_metadata(){
     for image in static/images/*; do
@@ -42,8 +62,8 @@ const path = "static/images/";
 const imageCount = ${icount};
 const imageIndex = Math.floor(Math.random() * imageCount);
 document.getElementById("image").src = \`\${path}\${imageIndex}.jpg\`;
-
 EOF
+    echo "done!"
 }
 
 _help(){
@@ -54,16 +74,10 @@ _help(){
 	echo "  image.sh help   : help page"
 }
 
-# did you know that you can very easily convert images with ffmpeg
-# for example
-# ffmpeg -i image.png image.jpg
-# should add a flag for this 
-# or the rename function should check for this 
-# i think i could use awk 
 
 case $1 in
 	remove)
-		_remove_metadata 	
+		_remove_metadata
 		;;
 	rename)
 		_rename_images
@@ -78,4 +92,3 @@ case $1 in
 		_help
 		;;
 esac
-
