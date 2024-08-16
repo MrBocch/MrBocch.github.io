@@ -12,18 +12,9 @@ _image_count(){
 _rename_images(){
     local icount=$(_image_count)
     i=$icount
-    for image in static/stage/* ; do
-        if [ $(_get_extension $image) == ".jpg" ] ; then
-            echo "renaming $image to ${i}.jpg"
-            mv $image "static/stage/${i}.jpg"
-        else
-            # this feels like a mess
-            echo "$image is not a .jpg, will convert"
-            _convert_to_jpg $image
-            local iname=$(_get_name $image)
-            mv $iname.jpg "static/stage/$i.jpg"
-        fi
-
+    for image in static/stage/*.jpg ; do
+        echo "renaming $image to ${i}.jpg"
+        mv $image "static/stage/${i}.jpg"
         i=$((i+1))
     done
     echo "moving staging images to images folder"
@@ -55,6 +46,14 @@ _convert_to_jpg(){
 
 # _convert_to_jpg static/stage/test.png
 # ffmpeg does not destroy the original image so what should i do? not movethem or delete them?
+_convert_staging(){
+    for image in $(find ./static/stage -type f ! -name "*.jpg") ; do
+        echo "Will try to convert $image to .jpg"
+        _convert_to_jpg $image
+    done
+}
+
+_convert_staging
 
 _remove_metadata(){
     for image in static/images/*; do
@@ -99,6 +98,6 @@ case $1 in
 		_image_count
 		;;
 	*)
-		_help
+		#_help
 		;;
 esac
