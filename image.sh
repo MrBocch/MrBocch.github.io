@@ -51,30 +51,21 @@ _rename_images(){
     _update_script
 }
 
-# its ok, just take it step by step
-
 _convert_to_jpg(){
     local image=$1
-    echo $image # works as expected
-    # I KNOW WHY IT DOES NOT WORK
-    # awk is
-    # ./static/stage/img.png
-    # its taking the first one right?
-    echo $(_get_name $image)
-    echo $(_get_extension $image)
-    #name="$(_get_name $image)"
-    #ext="$(_get_extension $image)"
-    # ffmpeg -i $image $name.jpg
+    name="$(_get_name $image)"
+    ext="$(_get_extension $image)"
+
+    ffmpeg -i $image $name.jpg
 }
+
 _convert_staging(){
     # go thrue each not .jpg file, and will call _convert_to_jpg() on them
-    for image in $(find ./static/stage -type f ! -name "*.jpg") ; do
+    for image in $(find static/stage -type f ! -name "*.jpg") ; do
         echo "Will try to convert $image to jpg"
         _convert_to_jpg $image
     done
 }
-
-_convert_staging
 
 _help(){
 	echo "  image.sh remove : removes metadata from images"
@@ -83,7 +74,6 @@ _help(){
 	echo "  image.sh count  : returns number of images"
 	echo "  image.sh help   : help page"
 }
-
 
 case $1 in
 	remove)
