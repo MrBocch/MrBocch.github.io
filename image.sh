@@ -33,14 +33,16 @@ _get_name(){
 
 _convert_to_jpg(){
     local image=$1
-    name="$(_get_name $image)"
-    ext="$(_get_extension $image)"
+    # why does this not work anymore? is there something wrong with the function?
+    # calling the function here seems to not work?
+    # name="$(_get_name $image)"
+    # ext="$(_get_extension $image)"
     if [ $ext == "jpg" ]; then
         echo "this $image is a .jpg"
     else
         # it works with png but can it do other formats?
         echo "converting $image to a .jpg"
-        ffmpeg -i $image $name.jpg
+        # ffmpeg -i $image $name.jpg
     fi
 }
 
@@ -53,7 +55,8 @@ _convert_staging(){
     done
 }
 
-_convert_staging
+_get_name "hello.jpg"
+_get_extension "hello.jpg"
 
 _remove_metadata(){
     for image in static/images/*; do
