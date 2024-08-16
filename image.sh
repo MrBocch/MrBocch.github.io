@@ -45,10 +45,14 @@ _rename_images(){
         mv $image "static/stage/${i}.jpg"
         i=$((i+1))
     done
-    echo "moving staging images to images folder"
-    mv static/stage/*.jpg static/images/
+
     _remove_metadata
     _update_script
+}
+
+_staging_to_images(){
+    echo "will only move .jpg"
+    mv static/stage/*.jpg static/images/
 }
 
 _convert_to_jpg(){
@@ -66,6 +70,11 @@ _convert_staging(){
         _convert_to_jpg $image
     done
 }
+
+# ok lets see how it works
+_convert_staging
+_rename_images
+_staging_to_images
 
 _help(){
 	echo "  image.sh remove : removes metadata from images"
