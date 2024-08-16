@@ -45,9 +45,6 @@ _rename_images(){
         mv $image "static/stage/${i}.jpg"
         i=$((i+1))
     done
-
-    _remove_metadata
-    _update_script
 }
 
 _staging_to_images(){
@@ -71,32 +68,38 @@ _convert_staging(){
     done
 }
 
-# ok lets see how it works
-_convert_staging
-_rename_images
-_staging_to_images
-
 _help(){
 	echo "  image.sh remove : removes metadata from images"
 	echo "  image.sh rename : takes image from staging area to images and renames them"
 	echo "  image.sh update : updates script to include the newer images"
 	echo "  image.sh count  : returns number of images"
 	echo "  image.sh help   : help page"
+	echo "  image.sh everything : Converts to .jpg,
+	                              Renames files,
+	                              Moves from staging to images,
+								  Removes metadata,
+								  Updates script"
 }
 
 case $1 in
 	remove)
-		_remove_metadata
+	    _remove_metadata
 		;;
 	rename)
-		_rename_images
+	    _rename_images
 		;;
 	update)
-		_update_script
+	   _update_script
 		;;
 	count)
 		_image_count
 		;;
+	everything)
+	    _convert_staging
+		_rename_images
+		_update_script
+		_remove_metadata
+	   ;;
 	*)
 		#_help
 		;;
