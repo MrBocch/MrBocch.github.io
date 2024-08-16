@@ -7,18 +7,27 @@ _image_count(){
     echo $count
 }
 
+# it does alot more than jus rename them
+# but i think its ok, just rename it
 _rename_images(){
     local icount=$(_image_count)
     i=$icount
     for image in static/stage/* ; do
-        echo "renaming $image to ${i}.jpg"
+        if [ $(_get_extension $image) == ".jpg" ] ; then
+            echo "renaming $image to ${i}.jpg"
+            mv $image "static/stage/${i}.jpg"
+        else
+            # this feels like a mess
+            echo "$image is not a .jpg, will convert"
+            _convert_to_jpg $image
+            local iname=$(_get_name $image)
+            mv $iname.jpg "static/stage/$i.jpg"
+        fi
 
-        mv $image "static/stage/${i}.jpg"
         i=$((i+1))
     done
     echo "moving staging images to images folder"
-    # maybe i can do that in here also, just write to a script.js
-    mv static/stage/* static/images/
+    mv static/stage/*.jpg static/images/
     _remove_metadata
     _update_script
 }
@@ -38,6 +47,7 @@ _convert_to_jpg(){
     if [ $ext == "jpg" ]; then
         echo "this $image is a .jpg"
     else
+        # it works with png but can it do other formats?
         echo "converting $image to a .jpg"
         ffmpeg -i $image $name.jpg
     fi
