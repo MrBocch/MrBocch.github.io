@@ -35,8 +35,6 @@ EOF
     echo "done!"
 }
 
-# it does alot more than jus rename them
-# but i think its ok, just rename the function
 _rename_images(){
     local icount=$(_image_count)
     i=$icount
@@ -101,6 +99,6 @@ case $1 in
 		_remove_metadata
 	   ;;
 	*)
-		#_help
+		_help
 		;;
 esac
