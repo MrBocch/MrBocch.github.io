@@ -1,4 +1,4 @@
-# /bin/zsh
+#! /usr/bin/env zsh
 
 _get_name(){
     echo $1 | awk '{ split($0, arr, "."); print arr[1] }'
@@ -45,7 +45,7 @@ _rename_images(){
     done
 }
 
-_staging_to_images(){
+_stage_to_images(){
     echo "will only move .jpg"
     mv static/stage/*.jpg static/images/
 }
@@ -53,7 +53,6 @@ _staging_to_images(){
 _convert_to_jpg(){
     local image=$1
     name="$(_get_name $image)"
-    ext="$(_get_extension $image)"
 
     ffmpeg -i $image $name.jpg
 }
@@ -72,11 +71,11 @@ _help(){
 	echo "  image.sh update : updates script to include the newer images"
 	echo "  image.sh count  : returns number of images"
 	echo "  image.sh help   : help page"
-	echo "  image.sh everything : Converts to .jpg,
-	                              Renames files,
-	                              Moves from staging to images,
-								  Removes metadata,
-								  Updates script"
+	echo "  image.sh everything : Converts to .jpg,"
+	echo "                        Renames files,"
+	echo "                        Moves .jpgs from staging to images,"
+	echo "                        Removes metadata,"
+	echo "                        Updates script"
 }
 
 case $1 in
@@ -96,6 +95,7 @@ case $1 in
 	    _convert_staging
 		_rename_images
 		_update_script
+		_stage_to_images
 		_remove_metadata
 	   ;;
 	*)
