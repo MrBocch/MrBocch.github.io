@@ -67,7 +67,8 @@ _convert_staging(){
 
 _help(){
 	echo "  image.sh remove : removes metadata from images"
-	echo "  image.sh rename : takes image from staging area to images and renames them"
+	echo "  image.sh rename : renames images in staging area"
+	echo "  image.sh move   : move .jpg from staging to images"
 	echo "  image.sh update : updates script to include the newer images"
 	echo "  image.sh count  : returns number of images"
 	echo "  image.sh help   : help page"
@@ -91,12 +92,17 @@ case $1 in
 	count)
 		_image_count
 		;;
+	move)
+	   _stage_to_images
+		;;
 	everything)
 	    _convert_staging
 		_rename_images
 		_update_script
 		_stage_to_images
 		_remove_metadata
+		_remove_metadata
+		_update_script
 	   ;;
 	*)
 		_help
