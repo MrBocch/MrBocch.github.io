@@ -65,6 +65,10 @@ _convert_staging(){
     done
 }
 
+# i also want to have gifs, how do i do that
+# alot of the code is assuming they are for .jpg
+# would probably have to rewrite somestuff
+
 _help(){
 	echo "  image.sh remove : removes metadata from images"
 	echo "  image.sh rename : renames images in staging area"
