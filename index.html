@@ -4,15 +4,42 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>jorge.sh</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/ekmas/cs16.css@main/css/cs16.min.css">
         <link rel="stylesheet" href="static/style.css" />
     </head>
     <body>
-        <h1>jorge.sh</h1>
-        <img id="image" width="400px" />
-        <nav>
-            <a href="https://jorge.sh/blog">blog</a>
-            <a href="https://github.com/mrbocch">github</a>
-        </nav>
+        <h1>JORGE.SH</h1>
+        <img id="image" />
+
+        <div class="cs-tabs">
+          <input
+            class="radiotab"
+            name="tabs"
+            tabindex="1"
+            type="radio"
+            id="tabone"
+            checked="checked"
+          />
+          <label class="label" for="tabone">whoami</label>
+          <div class="panel" tabindex="1" style="background-color: #3E4637;">
+            <h2>MrBocch</h2>
+            <hr class="cs-hr" style="margin-bottom: 15px;">
+            <p>
+              7th semester student ITS in <em>FIME</em>
+            </p>
+            <p>
+              I like programing and in my freetime i like to hike
+            </p>
+
+            <a href="https://github.com/MrBocch" target="_blank">
+              <button class="cs-btn" style="margin-top: 10px;">github</button>
+            </a>
+            <a href="#" target="">
+              <button class="cs-btn" style="margin-top: 10px;">CV</button>
+            </a>
+          </div>
+        </div>
+
     </body>
 
     <script src="script.js"></script>
