@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+  background: #fb4934;
+  color: #1d2021;
+}
+
+body {
+    background-color: #282828;
+    padding: 0 1em 0 1em;
+    font-family: 'Georgia';
+
+}
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #fabd2f;
+    font-style: italic;
+}
+
+p {
+    color: #bdae93;
+    margin-bottom: 8px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    font-style: italic;
+    color: #83a598; /* Normal link */
+}
+
+a:visited {
+    color: #83a598; /* Normal link */
+}
+
+a:hover {
+    color: #83a598; /* Normal link */
+}
+
+a:active {
+    color: #83a598; /* Normal link */
+}
