@@ -16,8 +16,8 @@ body {
 }
 
 .hero {
-    height: 100vh;
-    width: 100vw;
+    height: 99vh;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,13 +26,13 @@ body {
 h1 {
     color: #fabd2f;
     font-style: italic;
-    font-size: clamp(0.5rem, 2.0vw + 1rem, 10rem);
+    font-size: clamp(0.5rem, 2.0vw + 1rem, 100rem);
 }
 
 p {
     color: #bdae93;
     margin-bottom: 8px;
-    font-size: clamp(0.5rem, 0.5vw + 1rem, 3rem);
+    font-size: clamp(0.5rem, 0.5vw + 1rem, 100rem);
 }
 
 ul {

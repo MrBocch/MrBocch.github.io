@@ -1,10 +1,12 @@
 module Main exposing (main)
 
-import Html exposing (Html, main_, div, h1, p, a, ul, li, text)
+import Html exposing (Html, div, h1, p, a, ul, li, text)
 import Html.Attributes exposing (class, href, target)
 
-main : Html msg
-main =
+main = view
+
+view : Html msg
+view =
     div [ class "hero" ]
         [
             h1 []
